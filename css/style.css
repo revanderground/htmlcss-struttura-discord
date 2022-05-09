@@ -52,10 +52,13 @@ li{
 
 li a{
     text-decoration: none;
-    background-color: grey;
     padding: 5px 10px;
     display: inline-block;
     margin: 2px;
+}
+
+a:visited, a:link{
+    color:black
 }
 
 .login{
@@ -122,11 +125,66 @@ li a{
 
 .section5{
     background-color: rgba(211, 211, 211, 0.861);
-    padding: 30px;
+    padding: 10px;
 }
 
 .box3{
     background-color: rgb(0, 109, 16);
     border: 2px solid black;
-    height: 600px;
+    height: 500px;
 }
+
+.sezione6{
+    background-color: black;
+}
+
+.box4{
+    height: 350px;
+    display:flex;
+}
+
+.boxxleft{
+    background-color: rgb(255, 126, 126);
+    flex-grow: 2;
+    border: 2px dotted whitesmoke;
+}
+
+.borderbottom{
+    border: 1px solid white;
+}
+
+.boxxright{
+    background-color: rgb(50, 193, 184);
+    flex-grow: 1;
+    border: 2px dotted whitesmoke;
+}
+
+.box5{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(136, 255, 233);
+    
+    
+}
+
+
+.section4{
+    padding: 10px 10px 0px 10px;
+}
+.flex-end{
+    align-items: flex-end;
+}
+
+.logobottom{
+    padding: 5px;
+    background-color: pink;
+}
+
+.bottone{
+    padding: 5px;
+    background-color: pink;
+}
+
+
